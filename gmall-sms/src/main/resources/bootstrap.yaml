@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8848
+        namespace: c978d7bc-1357-4f2f-8289-97ce4874c96d
+        group: dev
+        file-extension: yml
+  application:
+    name: sms-service
